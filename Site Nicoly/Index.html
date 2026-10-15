@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para Nicoly 🌹</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================================================
+         FUNDO
+    =================================================== -->
+
+    <div class="background">
+
+        <div class="stars"></div>
+
+        <div class="moon">
+            <div class="moon-shadow"></div>
+        </div>
+
+        <div class="castle">
+            <div class="castle-tower tower-left">
+                <div class="tower-roof"></div>
+                <div class="tower-window"></div>
+                <div class="tower-window"></div>
+            </div>
+
+            <div class="castle-center">
+                <div class="castle-roof"></div>
+                <div class="castle-door"></div>
+                <div class="castle-window window-one"></div>
+                <div class="castle-window window-two"></div>
+            </div>
+
+            <div class="castle-tower tower-right">
+                <div class="tower-roof"></div>
+                <div class="tower-window"></div>
+                <div class="tower-window"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ==================================================
+         VITRAIS LATERAIS
+    =================================================== -->
+
+    <div class="stained-glass glass-left">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="stained-glass glass-right">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <!-- ==================================================
+         PÉTALAS
+    =================================================== -->
+
+    <div class="petals">
+
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+
+    </div>
+
+
+    <!-- ==================================================
+         HERO
+    =================================================== -->
+
+    <header class="hero">
+
+        <div class="hero-book">
+
+            <div class="corner corner-tl">❦</div>
+            <div class="corner corner-tr">❦</div>
+            <div class="corner corner-bl">❦</div>
+            <div class="corner corner-br">❦</div>
+
+            <span class="story-label">
+                UMA HISTÓRIA DE AMOR
+            </span>
+
+            <h1>
+                Era uma vez...
+            </h1>
+
+            <div class="gold-line">
+                <span>✦</span>
+                <b></b>
+                <span>❦</span>
+                <b></b>
+                <span>✦</span>
+            </div>
+
+            <h2>
+                Nicoly
+            </h2>
+
+            <p class="hero-subtitle">
+                A história mais bonita que eu poderia
+                escrever é a nossa.
+            </p>
+
+
+            <!-- ROSA EM REDOMA -->
+
+            <div class="rose-display">
+
+                <div class="glass-dome">
+
+                    <div class="dome-shine"></div>
+
+                    <div class="rose-stem"></div>
+
+                    <div class="rose-leaf leaf-one"></div>
+                    <div class="rose-leaf leaf-two"></div>
+
+                    <div class="rose-flower">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+                <div class="dome-base"></div>
+
+            </div>
+
+
+            <p class="hero-date">
+                Desde <strong>04 de maio de 2026</strong>
+            </p>
+
+            <p class="hero-quote">
+                “Algumas histórias são encontradas.
+                <br>
+                Outras são escritas juntos.”
+            </p>
+
+            <button
+                class="gold-button"
+                onclick="abrirHistoria()"
+            >
+                <span>Começar nossa história</span>
+                <strong>🌹</strong>
+            </button>
+
+            <div class="scroll-hint">
+                <span>continue o conto</span>
+                <b>↓</b>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================================================
+         CAPÍTULO I
+         ROSA / CONTADOR
+    =================================================== -->
+
+    <section class="chapter rose-chapter">
+
+        <div class="chapter-title">
+
+            <span class="chapter-number">
+                CAPÍTULO I
+            </span>
+
+            <h2>
+                A Rosa Encantada
+            </h2>
+
+            <div class="ornament">
+                ❦
+            </div>
+
+            <p>
+                O tempo passa. Mas algumas histórias
+                ficam cada vez mais bonitas.
+            </p>
+
+        </div>
+
+
+        <div class="magic-rose-card">
+
+            <div class="rose-glow"></div>
+
+            <div class="big-rose">
+
+                <div class="big-stem"></div>
+
+                <div class="big-leaf leaf-a"></div>
+                <div class="big-leaf leaf-b"></div>
+
+                <div class="big-flower">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+
+            </div>
+
+
+            <div class="counter-content">
+
+                <span>
+                    NOSSO TEMPO JUNTOS
+                </span>
+
+                <div class="counter">
+
+                    <div class="counter-item">
+                        <strong id="meses">0</strong>
+                        <small>meses</small>
+                    </div>
+
+                    <div class="counter-item">
+                        <strong id="dias">0</strong>
+                        <small>dias</small>
+                    </div>
+
+                    <div class="counter-item">
+                        <strong id="horas">0</strong>
+                        <small>horas</small>
+                    </div>
+
+                    <div class="counter-item">
+                        <strong id="minutos">0</strong>
+                        <small>minutos</small>
+                    </div>
+
+                    <div class="counter-item">
+                        <strong id="segundos">0</strong>
+                        <small>segundos</small>
+                    </div>
+
+                </div>
+
+                <p>
+                    E eu escolheria viver cada um deles
+                    novamente com você.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         CAPÍTULO II
+         LIVRO / TIMELINE
+    =================================================== -->
+
+    <section class="chapter story-chapter">
+
+        <div class="chapter-title">
+
+            <span class="chapter-number">
+                CAPÍTULO II
+            </span>
+
+            <h2>
+                Era uma vez, nós dois
+            </h2>
+
+            <div class="ornament">
+                ❦
+            </div>
+
+            <p>
+                Todo conto começa com uma primeira página.
+            </p>
+
+        </div>
+
+
+        <div class="storybook">
+
+            <div class="book-spine"></div>
+
+
+            <div class="story-page">
+
+                <div class="page-number">
+                    I
+                </div>
+
+                <span class="story-date">
+                    04 DE MAIO DE 2026
+                </span>
+
+                <h3>
+                    O começo de tudo
+                </h3>
+
+                <div class="page-ornament">
+                    🌹
+                </div>
+
+                <p>
+                    O dia em que duas histórias diferentes
+                    começaram a caminhar na mesma direção.
+                </p>
+
+            </div>
+
+
+            <div class="story-page">
+
+                <div class="page-number">
+                    II
+                </div>
+
+                <span class="story-date">
+                    PRIMEIRO MÊS
+                </span>
+
+                <h3>
+                    Os primeiros capítulos
+                </h3>
+
+                <div class="page-ornament">
+                    🕯️
+                </div>
+
+                <p>
+                    Vieram as risadas, as conversas,
+                    os abraços, as brincadeiras e aquela
+                    sensação boa de ter encontrado alguém
+                    especial.
+                </p>
+
+            </div>
+
+
+            <div class="story-page">
+
+                <div class="page-number">
+                    III
+                </div>
+
+                <span class="story-date">
+                    HOJE
+                </span>
+
+                <h3>
+                    A história continua
+                </h3>
+
+                <div class="page-ornament">
+                    ❤️
+                </div>
+
+                <p>
+                    E ainda não sabemos quantas páginas
+                    teremos pela frente. Só sabemos que
+                    queremos continuar escrevendo.
+                </p>
+
+            </div>
+
+
+            <div class="story-page future-page">
+
+                <div class="page-number">
+                    IV
+                </div>
+
+                <span class="story-date">
+                    PRÓXIMAS PÁGINAS
+                </span>
+
+                <h3>
+                    O que ainda vem
+                </h3>
+
+                <div class="page-ornament">
+                    💍
+                </div>
+
+                <p>
+                    Sonhos, viagens, planos, conquistas,
+                    fotos, risadas e uma vida inteira
+                    de novos capítulos.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         CAPÍTULO III
+         SALÃO DE BAILE / FOTOS
+    =================================================== -->
+
+    <section class="chapter ballroom-chapter">
+
+        <div class="ballroom-lights"></div>
+
+        <div class="chapter-title">
+
+            <span class="chapter-number">
+                CAPÍTULO III
+            </span>
+
+            <h2>
+                Nosso Baile
+            </h2>
+
+            <div class="ornament">
+                ❦
+            </div>
+
+            <p>
+                Se nossa história fosse um baile,
+                essas seriam algumas das lembranças
+                que eu guardaria para sempre.
+            </p>
+
+        </div>
+
+
+        <div class="ballroom">
+
+            <div class="chandelier">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+
+            <div class="gallery">
+
+                <figure class="photo photo-one">
+
+                    <div class="photo-frame">
+
+                        <img
+                            src="WhatsApp Image 2026-06-11 at 20.43.49.jpeg"
+                            alt="Nossa memória"
+                        >
+
+                    </div>
+
+                    <figcaption>
+                        Uma lembrança ❤️
+                    </figcaption>
+
+                </figure>
+
+
+                <figure class="photo photo-two">
+
+                    <div class="photo-frame">
+
+                        <img
+                            src="WhatsApp Image 2026-06-11 at 20.44.58.jpeg"
+                            alt="Nossa memória"
+                        >
+
+                    </div>
+
+                    <figcaption>
+                        Um momento 🥰
+                    </figcaption>
+
+                </figure>
+
+
+                <figure class="photo photo-three">
+
+                    <div class="photo-frame">
+
+                        <img
+                            src="WhatsApp Image 2026-06-11 at 20.44.59.jpeg"
+                            alt="Nossa memória"
+                        >
+
+                    </div>
+
+                    <figcaption>
+                        Uma história ✨
+                    </figcaption>
+
+                </figure>
+
+
+                <figure class="photo photo-four">
+
+                    <div class="photo-frame">
+
+                        <img
+                            src="WhatsApp Image 2026-06-11 at 20.43.49 (1).jpeg"
+                            alt="Nossa memória"
+                        >
+
+                    </div>
+
+                    <figcaption>
+                        Nós dois 💖
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         CAPÍTULO IV
+         CARTA
+    =================================================== -->
+
+    <section class="chapter letter-chapter">
+
+        <div class="chapter-title">
+
+            <span class="chapter-number">
+                CAPÍTULO IV
+            </span>
+
+            <h2>
+                Uma carta para minha Bela
+            </h2>
+
+            <div class="ornament">
+                ❦
+            </div>
+
+        </div>
+
+
+        <div class="letter-wrapper">
+
+            <div class="wax-seal">
+                E
+            </div>
+
+            <div class="letter">
+
+                <div class="letter-header">
+                    <span>❦</span>
+                    <span>PARA NICOLY</span>
+                    <span>❦</span>
+                </div>
+
+                <div class="letter-rose">
+                    🌹
+                </div>
+
+                <h3>
+                    Minha Bela,
+                </h3>
+
+                <div
+                    id="texto-carta"
+                    class="letter-text"
+                ></div>
+
+                <div class="letter-signature">
+                    Com amor,
+                    <br>
+                    <strong>Dudu ❤️</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         CAPÍTULO V
+         10 MOTIVOS
+    =================================================== -->
+
+    <section class="chapter reasons-chapter">
+
+        <div class="chapter-title">
+
+            <span class="chapter-number">
+                CAPÍTULO V
+            </span>
+
+            <h2>
+                10 coisas que amo em você
+            </h2>
+
+            <div class="ornament">
+                ❦
+            </div>
+
+            <p>
+                Dez motivos escolhidos entre tantos.
+            </p>
+
+        </div>
+
+
+        <div class="reasons">
+
+            <article class="reason">
+                <span>01</span>
+                <div>
+                    <b>Seu sorriso</b>
+                    <p>
+                        Porque ele consegue deixar qualquer
+                        momento melhor.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="reason">
+                <span>02</span>
+                <div>
+                    <b>Sua risada</b>
+                    <p>
+                        Principalmente quando eu consigo
+                        ser o motivo dela.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="reason">
+                <span>03</span>
+                <div>
+                    <b>Seu cabelo</b>
+                    <p>
+                        Simplesmente porque eu acho lindo.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="reason">
+                <span>04</span>
+                <div>
+                    <b>O jeito que você me faz rir</b>
+                    <p>
+                        Você consegue transformar qualquer
+                        conversa em uma memória.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="reason">
+                <span>05</span>
+                <div>
+                    <b>O jeito que você me faz bem</b>
+                    <p>
+                        Estar com você deixa tudo mais leve.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="reason">
+                <span>06</span>
+                <div>
+                    <b>Sua personalidade</b>
+                    <p>
+                        Porque é justamente quem você é que
+                        fez eu me apaixonar por você.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="reason">
+                <span>07</span>
+                <div>
+                    <b>Sua beleza</b>
+                    <p>
+                        E não estou falando apenas daquilo
+                        que os olhos conseguem enxergar.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="reason">
+                <span>08</span>
+                <div>
+                    <b>Seu humor negro</b>
+                    <p>
+                        Porque aparentemente eu encontrei
+                        alguém tão perturbada quanto eu kkkkk.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="reason">
+                <span>09</span>
+                <div>
+                    <b>Como me sinto quando estou com você</b>
+                    <p>
+                        Seguro, feliz, amado e simplesmente
+                        no lugar onde eu quero estar.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="reason special-reason">
+
+                <span>10</span>
+
+                <div>
+
+                    <b>
+                        Sua alma
+                    </b>
+
+                    <p>
+                        Acima da sua beleza, do seu sorriso
+                        e de todas as outras coisas que eu amo
+                        em você, o que mais admiro é a sua alma,
+                        porque nela eu vejo o amor de Cristo
+                        refletido em quem você é. ❤️
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         FINAL
+    =================================================== -->
+
+    <section class="ending">
+
+        <div class="ending-castle">
+
+            <div class="ending-moon"></div>
+
+            <div class="castle-small">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <div class="ending-content">
+
+            <div class="ending-rose">
+                🌹
+            </div>
+
+            <span>
+                E ASSIM TERMINA MAIS UM CAPÍTULO...
+            </span>
+
+            <h2>
+                E viveram muitos
+                <br>
+                capítulos juntos.
+            </h2>
+
+            <div class="gold-line">
+                <span>✦</span>
+                <b></b>
+                <span>❦</span>
+                <b></b>
+                <span>✦</span>
+            </div>
+
+            <p>
+                Porque talvez o verdadeiro final feliz
+                não seja chegar ao fim da história.
+            </p>
+
+            <p class="ending-highlight">
+                É encontrar alguém com quem
+                você queira continuar escrevendo.
+            </p>
+
+            <h3>
+                Eu te amo, Nicoly. ❤️
+            </h3>
+
+            <small>
+                Para sempre,
+                <br>
+                Dudu
+            </small>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         MODAL
+    =================================================== -->
+
+    <div
+        id="loveModal"
+        class="modal"
+    >
+
+        <div class="modal-content">
+
+            <button
+                class="close-modal"
+                onclick="fecharMensagem()"
+            >
+                ×
+            </button>
+
+            <div class="modal-rose">
+                🌹
+            </div>
+
+            <span>
+                UMA MENSAGEM PARA MINHA BELA
+            </span>
+
+            <h2>
+                Nicoly ❤️
+            </h2>
+
+            <p>
+                Se eu pudesse escolher novamente
+                a pessoa com quem viver essa história,
+                escolheria você.
+            </p>
+
+            <button
+                class="gold-button"
+                onclick="fecharMensagem()"
+            >
+                Continuar o conto
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <script>
+
+        /* ================================================
+           MODAL
+        ================================================= */
+
+        function abrirHistoria() {
+
+            document
+                .getElementById("loveModal")
+                .classList.add("active");
+
+        }
+
+
+        function fecharMensagem() {
+
+            document
+                .getElementById("loveModal")
+                .classList.remove("active");
+
+        }
+
+
+        document
+            .getElementById("loveModal")
+            .addEventListener(
+                "click",
+                function(event) {
+
+                    if (
+                        event.target === this
+                    ) {
+
+                        fecharMensagem();
+
+                    }
+
+                }
+            );
+
+
+        /* ================================================
+           CONTADOR
+        ================================================= */
+
+        const dataInicio =
+            new Date("2026-05-04T00:00:00");
+
+
+        function atualizarContador() {
+
+            const agora = new Date();
+
+            let meses =
+                (agora.getFullYear() -
+                    dataInicio.getFullYear()) * 12;
+
+            meses +=
+                agora.getMonth() -
+                dataInicio.getMonth();
+
+
+            let aniversario =
+                new Date(dataInicio);
+
+            aniversario.setMonth(
+                dataInicio.getMonth() + meses
+            );
+
+
+            if (aniversario > agora) {
+
+                meses--;
+
+                aniversario =
+                    new Date(dataInicio);
+
+                aniversario.setMonth(
+                    dataInicio.getMonth() + meses
+                );
+
+            }
+
+
+            const diferenca =
+                agora - aniversario;
+
+
+            const dias =
+                Math.floor(
+                    diferenca /
+                    (1000 * 60 * 60 * 24)
+                );
+
+
+            const horas =
+                Math.floor(
+                    diferenca /
+                    (1000 * 60 * 60)
+                ) % 24;
+
+
+            const minutos =
+                Math.floor(
+                    diferenca /
+                    (1000 * 60)
+                ) % 60;
+
+
+            const segundos =
+                Math.floor(
+                    diferenca /
+                    1000
+                ) % 60;
+
+
+            document
+                .getElementById("meses")
+                .textContent = meses;
+
+
+            document
+                .getElementById("dias")
+                .textContent = dias;
+
+
+            document
+                .getElementById("horas")
+                .textContent = horas;
+
+
+            document
+                .getElementById("minutos")
+                .textContent = minutos;
+
+
+            document
+                .getElementById("segundos")
+                .textContent = segundos;
+
+        }
+
+
+        atualizarContador();
+
+        setInterval(
+            atualizarContador,
+            1000
+        );
+
+
+        /* ================================================
+           CARTA
+        ================================================= */
+
+        const textoCarta = `Nicoly,
+
+Eu poderia ter te dado um presente comum,
+mas achei que você merecia algo feito por mim.
+
+Escrever cartas não é exatamente meu forte,
+então pensei: por que não transformar
+um pouco do que eu sei fazer
+em uma forma de te lembrar
+o quanto você é importante para mim?
+
+Desde o dia 4 de maio,
+meus dias ficaram mais leves,
+mais felizes e mais completos.
+
+Você se tornou uma das melhores partes
+da minha história.
+
+Ainda temos muito para viver.
+
+Muitos lugares para conhecer,
+muitas fotos para tirar,
+muitos lanches para comer,
+muitos desenhos para assistir,
+muitas risadas para dar
+e muitos momentos para guardar.
+
+E eu quero viver tudo isso com você.
+
+Quero continuar conhecendo cada detalhe seu.
+
+Quero continuar sendo seu companheiro,
+seu amigo, seu amor
+e alguém que você possa ter ao seu lado
+nos capítulos bons e também nos difíceis.
+
+Se a nossa história fosse um conto de fadas,
+eu não pediria para saber como ela termina.
+
+Eu só pediria para continuar nela
+enquanto houver páginas para escrever.
+
+Eu te amo. ❤️`;
+
+
+        const cartaElemento =
+            document.getElementById(
+                "texto-carta"
+            );
+
+
+        let letraAtual = 0;
+
+
+        function escreverCarta() {
+
+            if (
+                letraAtual <
+                textoCarta.length
+            ) {
+
+                cartaElemento.textContent +=
+                    textoCarta.charAt(
+                        letraAtual
+                    );
+
+                letraAtual++;
+
+                setTimeout(
+                    escreverCarta,
+                    25
+                );
+
+            }
+
+        }
+
+
+        /* ================================================
+           ANIMAÇÃO DE ENTRADA
+        ================================================= */
+
+        const observer =
+            new IntersectionObserver(
+                (entries) => {
+
+                    entries.forEach(
+                        entry => {
+
+                            if (
+                                entry.isIntersecting
+                            ) {
+
+                                entry.target
+                                    .classList
+                                    .add("visible");
+
+                            }
+
+                        }
+                    );
+
+                },
+                {
+                    threshold: .15
+                }
+            );
+
+
+        document
+            .querySelectorAll(
+                ".chapter-title, .magic-rose-card, .storybook, .ballroom, .letter-wrapper, .reason"
+            )
+            .forEach(
+                element => {
+
+                    observer.observe(
+                        element
+                    );
+
+                }
+            );
+
+
+        window.addEventListener(
+            "load",
+            () => {
+
+                setTimeout(
+                    escreverCarta,
+                    900
+                );
+
+            }
+        );
+
+    </script>
+
+</body>
+
+</html>
